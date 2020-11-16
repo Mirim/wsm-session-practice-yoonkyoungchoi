@@ -3,7 +3,6 @@
 <%
 	session.invalidate();
 %>
-
 <!DOCTYPE html>
 <html>
 <head>
