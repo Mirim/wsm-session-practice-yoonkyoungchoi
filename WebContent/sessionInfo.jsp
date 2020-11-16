@@ -16,10 +16,13 @@
 </head>
 <body>
 세션 ID : <%= session.getId() %><br>
+
 <%
 	time.setTime(session.getCreationTime());
 %>
+
 세션 생성시간 : <%= session.getCreationTime() %><br>
+
 <%
 	time.setTime(session.getLastAccessedTime());
 %>
